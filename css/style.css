@@ -1,0 +1,276 @@
+/*font-family: 'Playfair Display', serif;*/
+/*font-family: 'Ubuntu', sans-serif;*/
+/*font-family: 'Inconsolata', monospace;*/
+
+body{
+	padding:0;
+	margin:0;
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+}
+ /*header start*/
+ header{
+ 	padding: 20px 0;
+	
+ }
+ .container{
+ 	/*border: 2px solid #0e50e6;*/
+ 	width: 90%;
+ 	margin:0 auto;
+ 	overflow: hidden;
+ }
+ .logo{
+   
+    float: left;
+    /*border: 1px solid red;*/
+    width: 12%;
+     margin-top: 13px;
+
+ }
+ .logo img{
+ 	
+     width: 100%;
+
+ }
+ 
+ .menu {
+    /*border: 1px solid green;*/
+     width: 70%;
+     float:right;
+ }
+ .menu ul{
+
+  float: right;
+
+}
+ .menu ul li {
+	list-style: none;
+    float: left;
+
+}
+ .menu ul li a{
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+	text-transform: uppercase;
+	display: inline-block;
+	margin: 0 50px;
+	border-bottom: 1px solid transparent;
+	transition: 0.3s;
+	 
+
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid #626262;
+
+ }
+
+.menu ul li:last-child a{
+	margin-right: 0;
+
+} 
+
+/*banner start*/
+   .banner{
+
+   }
+   .b_img{
+   	width: 100%;
+   }
+
+/*banner end*/
+/*perfect s*/
+.perfect{
+	padding: 70px 0;
+
+}
+.container2{
+	width: 80%;
+	margin: 0 auto;
+	/*border: 1px solid green;*/
+	overflow: hidden;
+
+}
+.p_content p {}
+.light{
+	font-family: 'Ubuntu', sans-serif; 
+	font-weight:300;
+	font-size:16px;
+	color:#b4ad9e;
+	text-transform: uppercase;
+	margin: 0;
+
+}
+.c_h1{
+	font-weight: 400;
+	font-size: 30px;
+	margin-top:20px ;
+	margin-bottom:30px; 
+
+}
+.c_p{
+     	
+     	line-height:25px;
+     	margin-bottom: 30px;
+}
+.p_content h1 {}
+.p_content {}
+/*perfect end*/
+/*blog start*/
+
+.blog{
+	padding:70px; 
+	
+}
+.single{
+    width: 47%;
+    /*border:1px solid red;*/
+    float:left;
+    margin-bottom: 30px;
+
+}
+.single:nth-child(even){
+	margin-left: 6%;
+}
+.single img{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+/*blog end*/
+/*news*/
+.news{
+	background-color: #f0f0f0;
+
+}
+.signup{
+	text-align: center;
+}
+.s_h1{
+
+	color: #333333;
+	margin-top: 40px;
+	margin-bottom: 60px;
+}
+.s_form{
+	width: 400px;
+	position: relative;
+	left: 33%;
+	margin-bottom: 50px;
+}
+.s_form input{
+	font-family: 'Playfair Display', serif;
+	font-size: 14px;
+	color: #626262;
+	width:345px;
+	height: 45px;
+	border: none;
+	border-bottom: 1px solid #000000;
+	background-color: transparent;
+	padding-left: 5px;
+	padding-right: 45px; 
+}
+.s_form input:focus{
+	outline: 0;
+}
+.s_form button{
+	position: absolute;
+	background: transparent;
+	border: none;
+	cursor:pointer;
+	top: 15px;
+	right:0; 
+}
+.s_form button:focus{
+	outline:0;
+}
+.s_form button img{}
+
+/*news end*/
+.load{
+	padding: 70px 0;
+	text-align: center;
+}
+.load button{
+	width: 160px;
+	height: 60px;
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+	background-color: transparent;
+	border: 1px solid #626262;
+	text-transform: capitalize;
+	cursor: pointer; 
+
+}
+.load button:hover{
+	background-color:#626262;
+	color: white;
+}
+.load button:focus{
+	outline: none;
+}
+
+/*footer start*/
+footer{
+
+	background-color: #f0f0f0;
+	padding: 30px 0;
+	overflow: hidden;
+}
+ .footer-content{
+	width: 100%;
+	
+}
+ .footer-content .terms{
+	width: 50%;
+	float: left;
+}
+ .footer-content.terms ul{
+	list-style-type: none;
+}
+.footer-content .terms ul li{
+	display: inline;
+}
+ .footer-content .terms ul li a{
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #202020;
+	text-decoration: none;
+	display: inline-block;
+	padding-right: 20px;
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+ .footer-content .terms ul li a:hover{
+	color: #000;
+}
+ .footer-content .social{
+	width: 50%;
+	float: left;
+	text-align: right;
+}
+
+ .footer-content .social ul{
+	list-style-type: none;
+	display: inline;
+}
+ .footer-content .social ul li{
+	display: inline;
+}
+ .footer-content .social ul li a{
+	color: #626262;
+	display: inline-block;
+	padding-left: 20px;
+	padding-top: 20px;
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+ .footer-content .social ul li a:hover{
+	color: #000;
+}
+ .footer-content .social ul{}
+/*footer end
